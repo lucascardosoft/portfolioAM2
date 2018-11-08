@@ -1,0 +1,268 @@
+.topbar {
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #94a964;
+	position: fixed;
+	*/ padding-top: 15px;
+}
+
+.elements {
+	margin-top: 15px;
+}
+
+.navigation {
+	opacity: 0.7;
+	background-color: #000;
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-top: 17px;
+}
+
+.h1 {
+	color: #fff;
+	letter-spacing:
+}
+
+.nav-left {
+	width: 30%;
+	float: left;
+	padding-left: 25px;
+}
+
+.nav-right {
+	width: 70%;
+	float: right;
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 5px;
+}
+
+.icon:hover {
+	/* opacity: 0.5; */
+}
+
+.icon {
+	margin: 12px;
+}
+
+ul {
+	color: #fff;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 25px;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	text-align: right;
+	display: inline;
+}
+
+li {
+	margin-bottom: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+}
+
+a {
+	display: inline;
+	color: #fff;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.home-body {
+	width: 80%;
+}
+
+.spacer {
+	height: 1000px;
+}
+
+.spacer1 {
+	height: 140px;
+}
+
+.spacer2 {
+	height: 30px;
+}
+
+
+/*FOOTER*/
+
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
+
+/* zocial */
+
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	padding: 120px 0 0;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.social {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	line-height: 50px;
+	font-family: brandico;
+	font-size: 28px;
+	text-align: center;
+	color: #555;
+	border-radius: 10px;
+	background: #94a964;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.social:hover {
+	background-color: ;
+}
+
+.social img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.social:hover {
+	background: #3e5036;
+}
+
+
+
+
+.icon {
+	height:200px;
+	width:300px;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.caption {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+h1{
+	letter-spacing:3px;
+	margin-bottom:40px;
+    margin-left: 20px;
+	font-size:40px;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 500px;
+}
+ 
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
