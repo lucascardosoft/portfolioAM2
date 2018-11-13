@@ -3,7 +3,7 @@
 .topbar {
 	top: 0px;
 	width: 100%;
-	height: auto;
+	height: 125px;
 	background-color: #E9E7DA;
 	position: fixed;
 	*/ padding-top: 15px;
@@ -53,6 +53,10 @@ img footer {
 	float: left;
 	padding-left: 25px;
 
+}
+
+.nav-left img{
+	float: left;
 }
 
 .nav-right {

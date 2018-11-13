@@ -1,4 +1,4 @@
-function Enviar() {
+function Enviar() { //alert ao enviar o formulário
  
     var nome = document.getElementById("nomeid");
  
